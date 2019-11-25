@@ -318,7 +318,6 @@ mod tests {
 
     #[test]
     fn hashimoto_should_work() {
-
         type DAG = LightDAG<EthereumPatch>;
         let light_dag = DAG::new(0x8947a9.into());
         // bare_hash of block#8996777 on ethereum mainnet
